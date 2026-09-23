@@ -1093,7 +1093,6 @@ img{display:block;max-width:100%}
 </footer>
 </main>
 </div>
-<script>
     <section class="camera-roll" id="camera-roll">
   <div class="section-kicker-row">
     <span class="section-kicker">A FEW THINGS I'VE DONE</span>
@@ -1148,11 +1147,6 @@ img{display:block;max-width:100%}
   </div>
 </section>
 
-
-  const points=[...document.querySelectorAll('.road-point')];
-  points.forEach(point => point.addEventListener('click', () => { points.forEach(p => p.classList.remove('active')); point.classList.add('active'); }));
-})();
-</script>
 <script>
 (() => {
   document.querySelectorAll('.story').forEach(story => story.addEventListener('click', () => story.classList.toggle('open')));
